@@ -9,7 +9,7 @@ Inicio
     leia (saque);
 
     //verifica saque de valor negativo
-    se (saque <= 0) entao 
+    se (saque < 0) entao 
 
         imprima("Não é permitida saque de valor negativo!!");
 
