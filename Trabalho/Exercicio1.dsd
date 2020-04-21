@@ -31,6 +31,7 @@ Inicio
             resto ← saque % cedula;
             saque ← saque - resto;
             notas ← saque / cedula;
+            saque ← resto;
             imprima("Notas de " + cedula + "R$ :" + notas);
 
         //NOTAS DE 50
@@ -38,6 +39,7 @@ Inicio
             resto ← saque % cedula;
             saque ← saque - resto;
             notas ← saque / cedula;
+            saque ← resto;
             imprima("Notas de " + cedula + "R$ :" + notas);
 
         //NOTAS DE 20
@@ -45,6 +47,7 @@ Inicio
             resto ← saque % cedula;
             saque ← saque - resto;
             notas ← saque / cedula;
+            saque ← resto;
             imprima("Notas de " + cedula + "R$ :" + notas);
 
         //NOTAS DE 10
@@ -52,6 +55,7 @@ Inicio
             resto ← saque % cedula;
             saque ← saque - resto;
             notas ← saque / cedula;
+            saque ← resto;
             imprima("Notas de " + cedula + "R$ :" + notas);
 
         //NOTAS DE 5
@@ -59,6 +63,7 @@ Inicio
             resto ← saque % cedula;
             saque ← saque - resto;
             notas ← saque / cedula;
+            saque ← resto;
             imprima("Notas de " + cedula + "R$ :" + notas);
 
         //NOTAS DE 1
@@ -66,6 +71,7 @@ Inicio
             resto ← saque % cedula;
             saque ← saque - resto;
             notas ← saque / cedula;
+            saque ← resto;
             imprima("Notas de " + cedula + "R$ :" + notas);
     fimse;
 
