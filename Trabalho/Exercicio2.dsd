@@ -8,6 +8,11 @@ Inicio
     imprima("Digite algum valor menor que 1000");
     leia (numero);
 
+        //Calculo o resto da divisão
+        //subitrai do total 
+        //verifica o valor total de multiplos
+        //atualiza o resto para outra etapa
+
     se (numero< 1000) entao
 
         //CENTENAS

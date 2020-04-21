@@ -31,7 +31,6 @@ Inicio
             fimse;
         fimse;
 
-    =SE(E6>4664,68;0,275;(SE(E6>3751,05;0,225;SE(E6>2826,65;0,15;SE(E6>1903,98;0,075;0)))))
 
     //caulculo ir
         baseCalcIR ← salarioBruto - inss;
