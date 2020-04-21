@@ -15,6 +15,7 @@ Inicio
             resto ← numero % unidade;
             numero ← numero - resto;
             total ← numero / unidade;
+            numero ← resto;
             imprima("Centenas :" + total);
             
         //DEZENAS
@@ -22,6 +23,7 @@ Inicio
             resto ← numero % unidade;
             numero ← numero - resto;
             total ← numero / unidade;
+            numero ← resto;
             imprima("Dezenas :" + total);
             
         //UNIDADES
@@ -29,6 +31,7 @@ Inicio
             resto ← numero % unidade;
             numero ← numero - resto;
             total ← numero / unidade;
+            numero ← resto;
             imprima("Unidades :" + total);
 
     fimse;
