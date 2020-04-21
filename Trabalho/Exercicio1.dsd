@@ -20,6 +20,12 @@ Inicio
 
         imprima("Voce sacou o total de " + saque + " R$");
 
+        //Calculo o resto da divisão
+        //subitrai do total 
+        //verifica o total de notas possiveis
+        //atualiza o resto para outra etapa
+
+
        //NOTAS DE 100 
             cedula ← 100;
             resto ← saque % cedula;
